@@ -16,6 +16,8 @@
 <body>
     <header>
         <h1>The Gallery of Horns</h1>
+        <button id="first_Gallary">first Gallary</button>
+        <button id="Second_Gallary">Second Gallary</button>
         <select>
         <option value="default">Filter by Keyword</option>
       </select>
@@ -26,6 +28,16 @@
             <img src="" alt="">
             <p></p>
         </div>
+        <template id="mustache-template" type="text/x-tmpl-mustache">
+                <div class="template">
+                    <h2 class="title">{{{title}}}</h2>
+                    <img class="image_url">{{{title}}}
+                    <p class="description">{{description}}</p>
+                    <p class="keyword">{{keyword}}</p>
+                    <p class="Horns">{{{Horns}}}</p>
+
+                </div>
+            </template>
     </main>
     <footer>
         &copy; 2018 Code Fellows
