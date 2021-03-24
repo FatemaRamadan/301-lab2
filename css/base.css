@@ -13,8 +13,10 @@ header {
 
 div {
     margin-left: 10px;
-    float: left;
+    display: flex;
     box-sizing: border-box;
+    width: 25%;
+    height: 25%;
 }
 
 footer {
