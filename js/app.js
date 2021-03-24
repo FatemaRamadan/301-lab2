@@ -48,6 +48,7 @@ function gettingNewImages() {
             let newImages = new Gallary(element.image_url, element.title, element.description, element.keyword, element.horns);
             console.log(newImages);
             newImages.render();
+
         });
     })
 }
